@@ -13,7 +13,7 @@ public class Factory implements EntityFactory {
     @Spawns("enemy")
     public Entity newEnemy(SpawnData data) {
         return FXGL.entityBuilder(data)
-                .view(new Rectangle(40, 40, Color.RED))
+                .view(new Rectangle(40, 55, Color.RED))
                 .buildAndAttach();
     }
 
